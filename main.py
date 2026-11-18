@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
-"""news-image-20261117 entry: copy the pre-rendered infographic to the output dir.
+"""news-image-20261117 v2 entry: copy the pre-rendered newspaper front
+page to the output directory.
 
-The image (entry.png) sums up the world news of Tuesday 17 November 2026.
-The program writes the same bytes on every run: a straight file copy.
+The image (entry.png) sums up the world news of Tuesday 17 November
+2026 in 46 stories. The program writes the same bytes on every run:
+a straight file copy, standard library only.
 """
 import os
 import shutil
